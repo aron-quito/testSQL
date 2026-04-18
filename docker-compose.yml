@@ -8,6 +8,7 @@ services:
       MYSQL_DATABASE: testSQL
     volumes:
       - ./datos_db:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d
 
   # Servicio de Servidor Web + PHP
   web:

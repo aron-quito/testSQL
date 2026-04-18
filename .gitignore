@@ -1,0 +1,12 @@
+# Ignorar datos pesados de la base de datos
+datos_db/
+testSQL/
+
+# Ignorar archivos de sistema y configuración de editores
+.vscode/
+.DS_Store
+*.log
+
+# Ignorar carpetas de librerías si las tuvieras
+vendor/
+node_modules/
