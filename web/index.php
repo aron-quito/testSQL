@@ -2,7 +2,7 @@
 $host = 'db'; // Nombre del servicio en docker-compose
 $db   = 'testSQL';
 $user = 'root';
-$pass = 'tu_password_seguro'; // Cambia esto por tu password de docker-compose
+$pass = 'carton123'; // Cambia esto por tu password de docker-compose
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
