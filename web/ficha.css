@@ -1,0 +1,35 @@
+
+.formulario-registro {
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+}
+
+/* Usamos Grid para la fila de arriba */
+.fila-superior {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 20px; /* Espacio entre los campos */
+    margin-bottom: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-correo {
+    display: flex;
+    flex-direction: column;
+    width: 32%; /* Para que el ancho coincida con el primer campo de arriba */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
