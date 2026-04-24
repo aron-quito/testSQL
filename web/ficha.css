@@ -2,10 +2,7 @@
 .formulario-registro {
     max-width: 900px;
     font-family: Arial, sans-serif;
-    display: flex;
     justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    height: 100vh;;
 }
 
 /* Usamos Grid para la fila de arriba */
