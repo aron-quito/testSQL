@@ -12,6 +12,7 @@
 
     <form action="procesar.php" method="POST" class="formulario-registro">
         <h1>Datos de Contacto</h1>
+        <h3>FICHA DE PEDIDO</h3>
         <div class="fila-superior">
         <div class="campo">
             <label>Nombre *</label>
@@ -31,6 +32,15 @@
         <label>Correo *</label>
         <input type="email" name="correo" placeholder="Correo electrónico" required>
     </div>
+
+    <form action="procesar.php" method="POST" class="formulario-registro">
+
+        <h1>Datos de Entrega</h1>
+        <h3>Por el momento solo ofrecemos recojo en tienda</h3>
+        
+
+
+    </form>
 
 </form>
 </body>
